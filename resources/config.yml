@@ -1,0 +1,35 @@
+permission: "freeze.command"
+player-not-found: "§e{player} §cnot found!"
+listeners:
+  command:
+    on: true
+    messageOn: true
+    message: "You can't use commands while frozen!"
+  move:
+    on: true
+    messageOn: true
+    message: "You can't move while frozen!"
+  drop:
+    on: true
+    messageOn: true
+    message: "You can't drop items while frozen!"
+  interact:
+    on: true
+    messageOn: true
+    message: "You can't interact with blocks while frozen!"
+  pickup:
+    on: true
+    messageOn: true
+    message: "You can't pickup items while frozen!"
+  damage:
+    on: true
+    messageOn: true
+    message: "You can't take damage while frozen!"
+  break:
+    on: true
+    messageOn: true
+    message: "You can't break blocks while frozen!"
+  place:
+    on: true
+    messageOn: true
+    message: "You can't place blocks while frozen!"

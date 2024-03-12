@@ -1,0 +1,6 @@
+name: Freeze
+main: Yookou\Freeze\Main
+version: 0.0.1
+api: [5.0.0]
+author: Yookou
+website: "soon"
