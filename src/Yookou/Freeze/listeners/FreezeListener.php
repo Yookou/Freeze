@@ -18,7 +18,7 @@ use Yookou\Freeze\Main;
 use Yookou\Freeze\managers\FreezeManager;
 
 class FreezeListener implements Listener {
-	public function __construct(private readonly Main $plugin) {
+	public function __construct(private Main $plugin) {
 	}
 
 	public function onCommand(CommandEvent $event) : void {
