@@ -4,3 +4,8 @@ version: 0.0.1
 api: [5.0.0]
 author: Yookou
 website: "soon"
+
+permissions:
+  freeze.cmd:
+    description: Allows the player to freeze a player
+    default: op

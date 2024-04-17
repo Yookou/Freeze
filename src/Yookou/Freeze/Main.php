@@ -19,7 +19,7 @@ class Main extends PluginBase {
 	protected function onEnable() : void {
 		$server = $this->getServer();
 		$server->getPluginManager()->registerEvents(new FreezeListener($this), $this);
-		$server->getCommandMap()->registerAll("", [
+		$server->getCommandMap()->registerAll("Freeze", [
 			new FreezeCommand(),
 			new UnFreezeCommand()
 		]);

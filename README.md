@@ -10,7 +10,6 @@ Finally, if you are looking for private plugins at a good price, I can make some
 ### Config
 
 ```yaml
-permission: "freeze.command"
 player-not-found: "§e{player} §cnot found!"
 listeners:
   command:

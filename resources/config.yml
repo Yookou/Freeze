@@ -1,4 +1,3 @@
-permission: "freeze.command"
 player-not-found: "§e{player} §cnot found!"
 listeners:
   command:
